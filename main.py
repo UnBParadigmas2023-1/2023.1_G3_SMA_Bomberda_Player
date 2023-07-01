@@ -49,6 +49,7 @@ def init_custom(path):
     b.goUp()
     b.goUp()
     b.goUp()
+    b.reset()
 
 def custom_mode():
     if args[1] == "-test":
