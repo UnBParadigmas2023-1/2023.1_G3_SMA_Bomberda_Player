@@ -1,31 +1,21 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2022.2_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague esses comentários)
-
-# NomeDoProjeto
+# Bomberda Player
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 03<br>
+**Paradigma**: Sistemas Multiagentes<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula | Aluno |
+| :-: | -- |
+|18/0030264|Antonio Igor Carvalho|
+|18/0098021|Antonio Rangel Chaves|
+|18/0149687|Daniel Porto de Souza|
+|18/0042238|João Gabriel de Campos de Matos|
+|18/0124498|Kess Jhones Gomes Tavares|
+|18/0024868|Mateus Moreira Lima|
+|18/0132385|Vitor Diniz Pagani Vieira Ribeiro|
+|18/0145363|Yan Andrade de Sena|
+|18/0078640|Yuri Alves bacarias|
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
@@ -61,14 +51,87 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Antonio Igor Carvalho | | | 
+| Antonio Rangel Chaves | | | 
+| Daniel Porto de Souza | | | 
+| João Gabriel de Campos de Matos | | | 
+| Kess Jhones Gomes Tavares | | | 
+| Mateus Moreira Lima | | |
+| Vitor Diniz Pagani Vieira Ribeiro | | | 
+| Yan Andrade de Sena | | | 
+| Yuri Alves Bacarias | | | 
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+### Lições Aprendidas
+
+|Nome do Membro | Lições Aprendidas | 
+| -- | -- |
+| Antonio Igor Carvalho | | 
+| Antonio Rangel Chaves | |  
+| Daniel Porto de Souza | |  
+| João Gabriel de Campos de Matos | |
+| Kess Jhones Gomes Tavares | |
+| Mateus Moreira Lima | |
+| Vitor Diniz Pagani Vieira Ribeiro | |
+| Yan Andrade de Sena | |
+| Yuri Alves Bacarias | |
+
+### Percepções
+
+|Nome do Membro | Percepções | 
+| -- | -- |
+| Antonio Igor Carvalho | | 
+| Antonio Rangel Chaves | |  
+| Daniel Porto de Souza | |  
+| João Gabriel de Campos de Matos | |
+| Kess Jhones Gomes Tavares | |
+| Mateus Moreira Lima | |
+| Vitor Diniz Pagani Vieira Ribeiro | |
+| Yan Andrade de Sena | |
+| Yuri Alves Bacarias | |
+
+### Contribuições 
+
+|Nome do Membro | Contribuições | 
+| -- | -- |
+| Antonio Igor Carvalho | | 
+| Antonio Rangel Chaves | |  
+| Daniel Porto de Souza | |  
+| João Gabriel de Campos de Matos | |
+| Kess Jhones Gomes Tavares | |
+| Mateus Moreira Lima | |
+| Vitor Diniz Pagani Vieira Ribeiro | |
+| Yan Andrade de Sena | |
+| Yuri Alves Bacarias | |
+
+### Fragilidades
+
+|Nome do Membro | Fragilidades | 
+| -- | -- |
+| Antonio Igor Carvalho | | 
+| Antonio Rangel Chaves | |  
+| Daniel Porto de Souza | |  
+| João Gabriel de Campos de Matos | |
+| Kess Jhones Gomes Tavares | |
+| Mateus Moreira Lima | |
+| Vitor Diniz Pagani Vieira Ribeiro | |
+| Yan Andrade de Sena | |
+| Yuri Alves Bacarias | |
+
+### Trabalhos Futuros.
+
+|Nome do Membro | Trabalhos Futuros | 
+| -- | -- |
+| Antonio Igor Carvalho | | 
+| Antonio Rangel Chaves | |  
+| Daniel Porto de Souza | |  
+| João Gabriel de Campos de Matos | |
+| Kess Jhones Gomes Tavares | |
+| Mateus Moreira Lima | |
+| Vitor Diniz Pagani Vieira Ribeiro | |
+| Yan Andrade de Sena | |
+| Yuri Alves Bacarias | |
 
 ## Fontes
 Referencie, adequadamente, as referências utilizadas.
