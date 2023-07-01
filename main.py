@@ -1,6 +1,9 @@
 import browser as b
 import time
+import sys
 import os
+
+args = []
 
 def title():
     os.system("clear")
@@ -30,33 +33,49 @@ def init_fases():
     b.goUp()
 
 def init_custom(path):
-    print("CUSTOM MODE " + path)
-    exit()
+
+    with open(path, 'r') as file:
+        buffer = file.read()
+
+    browser = os.environ.get('BROWSER')
+    b.openBrowser(browser)
+    b.setMap(buffer)
+
+    b.goUp()
+    b.goRight()
+    b.goDown()
+    b.goLeft()
+    b.bomb()
+    b.goUp()
+    b.goUp()
+    b.goUp()
 
 def custom_mode():
-    
-    while 1:
-        title()
-        print("\n\tModo mapa customizado")
-        print("\nAqui você pode criar um mapa desafio para o player jogar.")
-        print("O mapa deve ser descrito em um aruivo de texto, o qual deverá ser identificado adiante.")
-        print("O mapa é definido na seguinte sintaxe:")
-        print("  - Piso:        símbolo ' ' (space)")
-        print("  - Parede:      símbolo '#'")
-        print("  - Piso Frágil: símbolo 'x'")
-        print("  - Buraco:      símbolo 'X'")
-        print("  - Caixa:       símbolo '$'")
-        print("  - Player:      símbolo '@'")
-        print("  - Inimigo:     símbolo 'E'")
-        print("  - Tesouro:     símbolo '.'")
-        print("\n\tDigite o caminho do seu arquivo de mapa\n\t[0] Voltar")
-        print("\n>> ", end="")
+    if args[1] == "-test":
+        init_custom("test_custom_map.txt")
+    else:
+        while 1:
+            title()
+            print("\n\tModo mapa customizado")
+            print("\nAqui você pode criar um mapa desafio para o player jogar.")
+            print("O mapa deve ser descrito em um aruivo de texto, o qual deverá ser identificado adiante.")
+            print("O mapa é definido na seguinte sintaxe:")
+            print("  - Piso:        símbolo ' ' (space)")
+            print("  - Parede:      símbolo '#'")
+            print("  - Piso Frágil: símbolo 'x'")
+            print("  - Buraco:      símbolo 'X'")
+            print("  - Caixa:       símbolo '$'")
+            print("  - Player:      símbolo '@'")
+            print("  - Inimigo:     símbolo 'E'")
+            print("  - Tesouro:     símbolo '.'")
+            print("\n\tDigite o caminho do seu arquivo de mapa\n\t[0] Voltar")
+            print("\n>> ", end="")
 
-        enter = str(input())
-        if enter == "0":
-            break
+            enter = str(input())
+            if enter == "0":
+                break
         
-        init_custom(enter)
+            init_custom(enter)
 
 def main():
     
@@ -75,4 +94,5 @@ def main():
             invalid_option()
     
 if __name__ == "__main__":
+    args = sys.argv
     main()
