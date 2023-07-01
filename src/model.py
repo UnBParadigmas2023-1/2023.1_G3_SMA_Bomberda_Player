@@ -35,14 +35,20 @@ class bomberdaModel(Model):
                     self.has_enemy = True
                     new_enemy = EnemyAgent(self.next_id(), self, (row, col))
                     self.grid.place_agent(new_enemy, (row, col))
-                    self.schedule.add(new_enemy)
+                    #self.schedule.add(new_enemy)
                 elif symbol == '.':
                     self.has_treasure = True
 
                 new_agent = CellAgent(self.next_id(), self, symbol)
                 self.grid.place_agent(new_agent, (row, col))
-                self.schedule.add(new_agent)
+                #self.schedule.add(new_agent)
                 
+    def get_has_enemy(self):
+        return self.has_enemy
+    
+    def get_has_treasure(self):
+        return self.has_treasure
+
     def step(self):
 
         """Advance the model by one step."""

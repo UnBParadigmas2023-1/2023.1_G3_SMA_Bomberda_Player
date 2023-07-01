@@ -7,7 +7,7 @@ import src.model as m
 arg = None
 
 def title():
-    os.system("clear")
+    #os.system("clear")
 
     print("   ___                 _                  _           ___ _                       ")
     print("  / __\ ___  _ __ ___ | |__   ___ _ __ __| | __ _    / _ \ | __ _ _   _  ___ _ __ ")
@@ -30,9 +30,8 @@ def invalid_option():
 def init_fases():
     browser = os.environ.get('BROWSER')
     b.openBrowser(browser)
-    b.goUp()
-    b.goUp()
-    m.bomberdaModel()
+    model = m.bomberdaModel()
+    model.step()
 
 def init_custom(path):
 
@@ -42,6 +41,9 @@ def init_custom(path):
     browser = os.environ.get('BROWSER')
     b.openBrowser(browser)
     b.setMap(buffer)
+
+    model = m.bomberdaModel()
+    model.step()
 
 def custom_mode():
     if arg == "-test":
@@ -61,7 +63,7 @@ def custom_mode():
             title()
             print("\n\tModo mapa customizado")
             print("\nAqui você pode criar um mapa desafio para o player jogar.")
-            print("O mapa deve ser descrito em um aruivo de texto, o qual deverá ser identificado adiante.")
+            print("O mapa deve ser descrito em um arquivo de texto, o qual deverá ser identificado adiante.")
             print("O mapa é definido na seguinte sintaxe:")
             print("  - Piso:        símbolo ' ' (space)")
             print("  - Parede:      símbolo '#'")
