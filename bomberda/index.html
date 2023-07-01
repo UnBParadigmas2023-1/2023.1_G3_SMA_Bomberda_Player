@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bomberda</title>
+</head>
+<body style="width:800px; align:center">
+
+
+<div style="text-align:center">
+<h1>Bomberda</h1>
+<p>Use arrows to move, place bombs with space, "r" restarts the level. Reach the treasure!</p>
+<canvas id="canvas" width="720" height="720" style="border:1px solid red;"></canvas>
+<br></br>
+Select Level to play:&nbsp;&nbsp;&nbsp;
+<select id="levelSelect" onchange="selectLevel()">
+</select>
+<p>Level Editor:</p>
+<textarea id="customLevel" rows=10 cols=20 oninput="restartLevel()">##########
+#    #  E#
+#    # . #
+#    #   #
+#    $   #
+#  #$#   #
+#  $ $   #
+#$$$ #   #
+#@   #   #
+##########
+</textarea>
+</div>
+
+<script src="levels.js"></script>
+<script src="bomberda-core.js"></script>
+<script src="bomberda-gui.js"></script>
+
+<h1 id="bomberda-game-description">Bomberda: Game description</h1>
+<h3 id="input-levels">Input levels</h3>
+<p>Each level is a uniform 2D grid. Each cell in the grid can be one of the following:</p>
+<ul>
+<li>Floor (symbol &quot; &quot; (space)): Can be traversed.</li>
+<li>Wall (symbol <code>#</code>): Cannot be traversed. Not destroyable.</li>
+<li>Fragile floor (symbol <code>x</code>): Can be traversed. If an actor moves over it (i.e. after an actor <em>leaves the tile</em>), collapses and becomes Collapsed Floor. Can also be destroyed with bombs (and then changes to Collapsed floor).</li>
+<li>Collapsed floor (symbol <code>X</code>): Cannot be traversed. Functions exactly like a wall.</li>
+<li>Box (symbol <code>$</code>): Cannot be traversed. Can be destroyed with bombs (and then changes to Floor).</li>
+<li>Player (symbol <code>@</code>): The actor which is controlled by the player.</li>
+<li>Enemy (symbol <code>E</code>): An &quot;enemy&quot; actor which reacts deterministically to the player's actions.</li>
+<li>Treasure (symbol <code>.</code>): The goal to be reached by the actor.</li>
+</ul>
+<p>A level must always be completely surrounded by walls, i.e. there are no traversable cells which would lead outside the specified level.</p>
+<p>In the level description, there must be <strong>exactly one player</strong> and <strong>at most one enemy</strong>. If there is an enemy, then the treasure can be omitted, in which case the treasure is <em>inside</em> the enemy. If no enemy is specified, then there must be <strong>exactly one treasure</strong> in the level description.</p>
+<p>Floor cells which contain an enemy, or the treasure, or a bomb (see below) are considered traversable just like any &quot;empty&quot; floor cell.</p>
+<h3 id="game-mechanics">Game mechanics</h3>
+<p>The game logic works in a turn-based way. <strong>The game ends</strong> when the player picks up the treasure. Until then, the game cycles through the following turns in the given order:</p>
+<ul>
+<li><strong>The player's turn.</strong>
+<ul>
+<li>If the player is at the same position as the treasure, he can pick it up and <strong>the player wins</strong> and <strong>The game ends</strong>.</li>
+<li>If no other bomb exists in the current state of the game, then the player can <em>place a bomb</em>. This spawns a bomb at the player's current position with a counter value of 3. After placing the bomb it is still the player's turn.</li>
+<li>The player must <em>move</em> one cell in one of the four directions (up, down, left, or right). The player can only move onto traversable cells. Also, walking against a wall or a box or into collapsed floor (i.e. a <em>move</em> action without actually changing the position) is <strong>not</strong> a valid turn. If the player leaves fragile floor with his turn, that fragile floor will become collapsed floor. After a valid move it is the enemy's turn.</li>
+</ul></li>
+<li><strong>The enemy's turn.</strong>
+<ul>
+<li>If there is no enemy on the map then we continue with the bomb's turn.</li>
+<li>If the enemy is at the same position as the player, <strong>the player loses</strong> and <strong>The game ends</strong>. Otherwise:</li>
+<li>The enemy will attempt to mirror the player's movement by walking a single cell into the opposite direction of the player's last move direction. If this movement is blocked by a non-traversable cell, then the enemy stands still. If the enemy moves into the player's position <strong>the player loses</strong> and and <strong>The game ends</strong>. If the enemy leaves fragile floor with its turn, that fragile floor will become collapsed floor.</li>
+</ul></li>
+<li><strong>The bomb's turn.</strong>
+<ul>
+<li>If there is no bomb on the map then we continue with the player's turn.</li>
+<li>The counter of the bomb decreases by one. If the counter reaches zero due to this change, the bomb immediately explodes and is removed from the game. The blast area of an exploding bomb includes the bomb's position and all four adjacent cells. It has the following effects (in any order):
+<ul>
+<li>If the player is in the blast area, <strong>the player loses</strong>.</li>
+<li>If the enemy is in the blast area, the enemy is removed from the game. If there is no treasure on the game field, then the treasure spawns at the position of the removed enemy.</li>
+<li>Boxes in the blast area are destroyed, changing to regular floor.</li>
+<li>Fragile floor tiles in the blast area collapse, changing to collapsed floor.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</body>
+</html>
+
