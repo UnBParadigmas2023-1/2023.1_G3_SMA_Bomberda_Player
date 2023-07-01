@@ -26,11 +26,33 @@ Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no 
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+**Linguagens**: Python <br>
+**Tecnologias**: Mesa, Selenium, Make, Git <br>
+
+- Clonando o repositório:
+  
+ Para clonar o reposótorio, basta exucutar o seguinte comando na linha de comando:
+ > $ git clone https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player.git
+
+ - Construindo a aplicação:
+
+ Dentro do diretório do reopositório, para construir a a imagem da aplicação, bastar executar o seguinte comando:
+ > $ make build
+
+ - Informando o navegador:
+
+ O projeto usa os navegadores Firefox ou Chrome. Por isso, é preciso definir uma variável ambiente para informar qual será utilizado.
+
+   Para usar o Firefox:
+ > $ export BROWSER=firefox
+
+   Para usar o Chrome:
+ > $ export BROWSER=chrome
+
+ - Iniciando a aplicação:
+
+ Dentro do diretório do repositório rode o seguinte comando para iniciar aplicação;
+ > $ make run
 
 ## Uso 
 Explique como usar seu projeto.
