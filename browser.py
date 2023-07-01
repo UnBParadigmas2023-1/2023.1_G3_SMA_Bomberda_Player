@@ -66,10 +66,15 @@ def bomb():
     time.sleep(1)
     # Simulate pressing the space key
     ACTIONS.send_keys(Keys.SPACE).perform()
+
 def reset():
     time.sleep(1)
     # Simulate pressing the r key
     ACTIONS.send_keys("r").perform()
+
+def getMap():
+    textArea = DRIVER.find_element("id", "customLevel") 
+    return textArea.get_attribute("value")
 
 def setMap(custom_map):
     textArea = DRIVER.find_element("id", "customLevel") 

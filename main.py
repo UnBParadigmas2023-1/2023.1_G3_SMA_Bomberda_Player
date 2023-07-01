@@ -2,6 +2,7 @@ import browser as b
 import time
 import sys
 import os
+import src.model as m
 
 arg = None
 
@@ -31,6 +32,7 @@ def init_fases():
     b.openBrowser(browser)
     b.goUp()
     b.goUp()
+    m.bomberdaModel()
 
 def init_custom(path):
 
