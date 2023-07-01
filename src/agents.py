@@ -74,7 +74,7 @@ class HeroAgent(Agent):
                     print("Achou" + str(path))
                     return path
 
-            neighbors = grid.get_neighborhood(current_pos, moore=True, include_center=False)
+            neighbors = grid.get_neighborhood(current_pos, moore=False, include_center=False)
             for neighbor_pos in neighbors:
                 neighbor_agent = grid.get_cell_list_contents([neighbor_pos])[0]
                 if neighbor_pos not in visited and neighbor_agent.type != '#':
