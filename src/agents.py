@@ -28,6 +28,8 @@ class HeroAgent(Agent):
             path = self.bfs('.')
             if(path is not None):
                 self.move(self.pos, path)
+            else:
+                print("Tem caixa pra explodir")
 
         elif not has_treasure and has_enemy:
             print("Mapa sem tesouro e com inimigo")
@@ -51,11 +53,43 @@ class HeroAgent(Agent):
         elif y_diff == -1:
             b.goUp()
        
-        print(x_diff, y_diff)
+        if path[0] == (-10, -10):
+            return
         self.move(path[0], path[1:])
+
+    def bfs_fuga(self, current_pos, path):
+
+        if len(path) == 3:
+            return path
+        
+        grid = self.model.grid
+        visited = set()
+        queue = deque([(current_pos, [])])
+
+        while queue:
+            current_pos, path = queue.popleft()
+
+            if current_pos in visited:
+                continue
+
+            visited.add(current_pos)
+
+            neighbors = grid.get_neighborhood(current_pos, moore=False, include_center=False)
+            for neighbor_pos in neighbors:
+                neighbor_agent = grid.get_cell_list_contents([neighbor_pos])[0]
+                if neighbor_pos not in visited and neighbor_agent.type != '#' and neighbor_agent.type != '$':
+                    queue.append((neighbor_pos, path + [neighbor_pos]))
+
+            agents = grid.get_cell_list_contents([current_pos])
+            for agent in agents:
+                if isinstance(agent, CellAgent) and agent.type == ' ':
+                    self.bfs_fuga(current_pos, path + [current_pos])
+            
+
 
     def bfs(self, target_type):
         start_pos = self.pos
+        box_type = '$'
         grid = self.model.grid
         visited = set()
         queue = deque([(start_pos, [])])
@@ -70,6 +104,9 @@ class HeroAgent(Agent):
 
             agents = grid.get_cell_list_contents([current_pos])
             for agent in agents:
+                if isinstance(agent, CellAgent) and agent.type == box_type:
+                    
+                    
                 if isinstance(agent, CellAgent) and agent.type == target_type:
                     print("Achou" + str(path))
                     return path
