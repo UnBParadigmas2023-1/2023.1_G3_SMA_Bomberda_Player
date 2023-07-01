@@ -3,7 +3,7 @@ import time
 import sys
 import os
 
-args = []
+arg = None
 
 def title():
     os.system("clear")
@@ -41,19 +41,19 @@ def init_custom(path):
     b.openBrowser(browser)
     b.setMap(buffer)
 
-    b.goUp()
-    b.goRight()
-    b.goDown()
-    b.goLeft()
-    b.bomb()
-    b.goUp()
-    b.goUp()
-    b.goUp()
-    b.reset()
-
 def custom_mode():
-    if args[1] == "-test":
+    if arg == "-test":
         init_custom("test_custom_map.txt")
+        b.goUp()
+        b.goRight()
+        b.goDown()
+        b.goLeft()
+        b.bomb()
+        b.goUp()
+        b.goUp()
+        b.goUp()
+        b.reset()
+
     else:
         while 1:
             title()
@@ -95,5 +95,5 @@ def main():
             invalid_option()
     
 if __name__ == "__main__":
-    args = sys.argv
+    arg = (sys.argv[1] if len(sys.argv) > 1 else None)
     main()
