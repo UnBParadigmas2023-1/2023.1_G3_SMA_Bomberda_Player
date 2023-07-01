@@ -43,3 +43,33 @@ def goUp():
     time.sleep(1)
     # Simulate pressing the up arrow key
     ACTIONS.send_keys(Keys.ARROW_UP).perform()
+
+def goDown():
+
+    time.sleep(1)
+    # Simulate pressing the down arrow key
+    ACTIONS.send_keys(Keys.ARROW_DOWN).perform()
+
+def goRight():
+
+    time.sleep(1)
+    # Simulate pressing the right arrow key
+    ACTIONS.send_keys(Keys.ARROW_RIGHT).perform()
+
+def goLeft():
+
+    time.sleep(1)
+    # Simulate pressing the left arrow key
+    ACTIONS.send_keys(Keys.ARROW_LEFT).perform()
+
+def bomb():
+    time.sleep(1)
+    # Simulate pressing the space key
+    ACTIONS.send_keys(Keys.SPACE).perform()
+
+def setMap(custom_map):
+    textArea = DRIVER.find_element("id", "customLevel") 
+    textArea.clear()
+    textArea.send_keys(custom_map)
+    canvas = DRIVER.find_element("id", "canvas")
+    ACTIONS.move_to_element(canvas).click().perform()
