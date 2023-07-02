@@ -15,7 +15,10 @@ class bomberdaModel(Model):
 
         mapa = b.getMap()
         splited_map = mapa.split('\n')
-        splited_map.remove('')
+        try:
+            splited_map.remove('')
+        except:
+            pass
 
         height = len(splited_map)
         width = max(len(row)for row in splited_map)
