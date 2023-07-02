@@ -11,7 +11,8 @@ class bomberdaModel(Model):
         self.current_id = 0
         self.has_enemy = False
         self.has_treasure = False
-        
+        self.has_hero = False
+
         mapa = b.getMap()
         splited_map = mapa.split('\n')
         splited_map.remove('')
@@ -28,6 +29,7 @@ class bomberdaModel(Model):
                 symbol = splited_map[row][col]
                 
                 if symbol == '@':
+                    self.has_hero = True
                     new_hero = HeroAgent(self.next_id(), self, (row, col))
                     self.grid.place_agent(new_hero, (row, col))
                     self.schedule.add(new_hero)
@@ -35,13 +37,18 @@ class bomberdaModel(Model):
                     self.has_enemy = True
                     new_enemy = EnemyAgent(self.next_id(), self, (row, col))
                     self.grid.place_agent(new_enemy, (row, col))
-                    #self.schedule.add(new_enemy)
                 elif symbol == '.':
                     self.has_treasure = True
 
-                new_agent = CellAgent(self.next_id(), self, symbol)
+                options = [] 
+                if symbol not in ['#', 'X']:
+                    options.append(splited_map[row+1][col] not in ['#', 'X', '$'])
+                    options.append(splited_map[row-1][col] not in ['#', 'X', '$'])
+                    options.append(splited_map[row][col-1] not in ['#', 'X', '$'])
+                    options.append(splited_map[row][col+1] not in ['#', 'X', '$'])
+
+                new_agent = CellAgent(self.next_id(), self, symbol, options if len(options) else None)
                 self.grid.place_agent(new_agent, (row, col))
-                #self.schedule.add(new_agent)
                 
     def get_has_enemy(self):
         return self.has_enemy
@@ -50,6 +57,10 @@ class bomberdaModel(Model):
         return self.has_treasure
 
     def step(self):
-
-        """Advance the model by one step."""
-        self.schedule.step()
+        
+        if self.has_hero and (self.has_treasure or self.has_enemy):
+            """Advance the model by one step."""
+            self.schedule.step()
+        else:
+            print("Mapa sem personagem ou objetivos...")
+            return

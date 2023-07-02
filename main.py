@@ -7,7 +7,7 @@ import src.model as m
 arg = None
 
 def title():
-    #os.system("clear")
+    os.system("clear")
 
     print("   ___                 _                  _           ___ _                       ")
     print("  / __\ ___  _ __ ___ | |__   ___ _ __ __| | __ _    / _ \ | __ _ _   _  ___ _ __ ")
