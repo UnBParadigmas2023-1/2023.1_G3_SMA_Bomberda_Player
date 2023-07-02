@@ -82,3 +82,12 @@ def setMap(custom_map):
     textArea.send_keys(custom_map)
     canvas = DRIVER.find_element("id", "canvas")
     ACTIONS.move_to_element(canvas).click().perform()
+
+def checkTriggerNextLevel():
+    trigger_next_level = DRIVER.execute_script("return triggerNextLevel;")
+
+    if trigger_next_level:
+        DRIVER.execute_script("triggerNextLevel = false;")
+        return True
+    else:
+        return False
