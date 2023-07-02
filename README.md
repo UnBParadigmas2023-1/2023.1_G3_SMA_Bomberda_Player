@@ -75,7 +75,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | -- | -- | -- |
 | Antonio Igor Carvalho | | | 
 | Antonio Rangel Chaves | | | 
-| Daniel Porto de Souza | | | 
+| Daniel Porto de Souza | Configuração do ambiente, implementação do fluxo inicial, configuração e implementação do web-scraping, implementação inicial da model e dos agentes e implementação da lógica de pegar o tesouro e usar a bomba | Excelente | 
 | João Gabriel de Campos de Matos | | | 
 | Kess Jhones Gomes Tavares | | | 
 | Mateus Moreira Lima | | |
@@ -91,7 +91,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | -- | -- |
 | Antonio Igor Carvalho | | 
 | Antonio Rangel Chaves | |  
-| Daniel Porto de Souza | |  
+| Daniel Porto de Souza | Fazer web scraping é bem divertido, dá pra faer muita coisa com o selenium. Sempre soube que o python é uma linguagem muito poderosa mas confesso que tinha uma certa resitência em usar. Gostei de me aprofundar mais na linguagem.|  
 | João Gabriel de Campos de Matos | |
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
@@ -105,7 +105,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | -- | -- |
 | Antonio Igor Carvalho | | 
 | Antonio Rangel Chaves | |  
-| Daniel Porto de Souza | |  
+| Daniel Porto de Souza | Esse paradigma foi interessante de se estudar. Uma nova forma de se resolver problemas complexos que geralmente não possuem uma solução em ordem polinomial além de estimular muito a criatividade |  
 | João Gabriel de Campos de Matos | |
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
@@ -119,7 +119,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | -- | -- |
 | Antonio Igor Carvalho | | 
 | Antonio Rangel Chaves | |  
-| Daniel Porto de Souza | |  
+| Daniel Porto de Souza | O projeto, utiliza do SMA para solucionar o game Bomberda, o qual se trata de uma ferramenta para exercitar fundamentos estudados nas disciplinas de IA. Isso pode servir de auxílio para estudantes e entusiastas. |  
 | João Gabriel de Campos de Matos | |
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
@@ -133,7 +133,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | -- | -- |
 | Antonio Igor Carvalho | | 
 | Antonio Rangel Chaves | |  
-| Daniel Porto de Souza | |  
+| Daniel Porto de Souza | O escopo desse seria melhor abordado utilizando uma orietação a objetivos. O comportamental pode limitar um pouco as soluções |  
 | João Gabriel de Campos de Matos | |
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
@@ -147,7 +147,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | -- | -- |
 | Antonio Igor Carvalho | | 
 | Antonio Rangel Chaves | |  
-| Daniel Porto de Souza | |  
+| Daniel Porto de Souza | Como trabalhos futuros, pode-se pensar desde incluir novos mapas mais desafiadores, até utilizar mais as ferramentas do MESA para, por exemplo, ilustrar graficamente o processo de decisão que o sistema realiza antes de executar o game.|  
 | João Gabriel de Campos de Matos | |
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
@@ -156,5 +156,6 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Yuri Alves Bacarias | |
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+[Mesa: Agent-based modeling in Python 3+](https://mesa.readthedocs.io/en/stable/)
+
+[Bomberda](http://algo2.iti.kit.edu/plan/bomberda/index.html)
