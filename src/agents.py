@@ -132,6 +132,7 @@ class HeroAgent(Agent):
                     bomb_scape = []
                     if neighbor_agent.type == '$':
                         bomb_scape = self.scape(current_pos, [], neighbors + [current_pos]) + [current_pos]
+                        neighbor_agent.type = ' '
                         
                     queue.append((neighbor_pos, path + bomb_scape + [neighbor_pos]))
         
