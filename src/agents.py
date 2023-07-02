@@ -29,10 +29,11 @@ class HeroAgent(Agent):
         has_enemy = self.model.get_has_enemy()
         
         if has_treasure and has_enemy:
-            print("Mapa com tesouro e inimigo")
-        elif has_treasure and not has_enemy:
-            print("Mapa com tesouro e sem inimigo")
+            # Mapa com tesouro e inimigo
+            pass
 
+        elif has_treasure and not has_enemy:
+            # Mapa com tesouro e sem inimigo
             path = self.bfs('.')
             if(path is not None):
                 self.move(self.pos, path)
@@ -40,9 +41,12 @@ class HeroAgent(Agent):
                 print("Mapa sem solução")
 
         elif not has_treasure and has_enemy:
-            print("Mapa sem tesouro e com inimigo")
+            # Mapa sem tesouro e com inimigo
+            pass
+
         elif not has_treasure and not has_enemy:
-            print("Mapa sem tesouro e sem inimigo")
+            # Mapa sem tesouro e sem inimigo
+            pass
 
     def move(self, current_pos, path):
         
