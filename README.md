@@ -114,7 +114,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Kess Jhones Gomes Tavares | | | 
 | Mateus Moreira Lima | | |
 | Vitor Diniz Pagani Vieira Ribeiro | | | 
-| Yan Andrade de Sena | | | 
+| Yan Andrade de Sena | Implementação inicial da model | Regular | 
 | Yuri Alves Bacarias | | | 
 
 ## Outros 
@@ -130,7 +130,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
-| Yan Andrade de Sena | |
+| Yan Andrade de Sena | Aprendi um pouco de python e também sobre o paradigmas multiagentes. Não cheguei a me aprofundar muito sobre o selenium |
 | Yuri Alves Bacarias | |
 
 ### Percepções
@@ -144,7 +144,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
-| Yan Andrade de Sena | |
+| Yan Andrade de Sena | Achei muito legal e interessante a implementação em um jogo (como se fosse uma IA jogando) |
 | Yuri Alves Bacarias | |
 
 ### Contribuições 
@@ -158,7 +158,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
-| Yan Andrade de Sena | |
+| Yan Andrade de Sena | Ajudei na lógica de importação do mapa no grid e como seria a utilização de um grid |
 | Yuri Alves Bacarias | |
 
 ### Fragilidades
@@ -172,7 +172,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
-| Yan Andrade de Sena | |
+| Yan Andrade de Sena | Acredito que seja a falta de conhecimento de python por minha parte |
 | Yuri Alves Bacarias | |
 
 ### Trabalhos Futuros.
@@ -186,7 +186,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Kess Jhones Gomes Tavares | |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
-| Yan Andrade de Sena | |
+| Yan Andrade de Sena | Implementar também o inimigo e também talvez implementar um algoritmo de Djikstra para fazer o personagem montar o melhor caminho possível para chegar no tesouro |
 | Yuri Alves Bacarias | |
 
 ## Fontes
