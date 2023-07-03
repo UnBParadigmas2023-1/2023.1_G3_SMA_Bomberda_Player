@@ -18,9 +18,15 @@
 |18/0078640|Yuri Alves bacarias|
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+Regras do jogo:
+1. O objetivo da agente é chegar no tesouro ou matar o inimigo
+2. A agente pode colocar bomba para destruir obstáculos ou inimigos
+3. A caixa só pode ser destruída por uma bomba
+4. Os inimigos só podem destruídos com uma bomba e derrotam a agente caso se encontrem
+5. O piso frágil só pode ser atravessado uma vez
+6. Caso a agente passe por cima de um piso frágil, um buraco é criado, impossibilitando a passagem
+7. As paredes não podem ser atravessadas ou destruídas com bombas
+
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
@@ -55,9 +61,37 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
  > $ make run
 
 ## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+1 - Após executar o make run, a tela inicial do jogo irá aparecer no terminal
+![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/0c845212-caf4-48c7-bbe5-959c46067365)
+
+2 - Vamos começar pela opção 1, que é jogar as fases já prontas. Ao selecionar essa opção o navegador irá iniciar e a fase fica visível. A agente heroína irá se movimentar sozinha para cumprir o objetivo de chegar ao tesouro.
+![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/50a76c24-ffdb-4f0b-bb36-1489f8528e4d)
+
+3 - Na opção 2 é possível criar uma fase customizada. 
+
+3.1 - O primeiro passo para criar uma fase customizada é necessário criar um arquivo .txt com a organização do mapa, cada objeto da fase listado abaixo representa um caractere que deve ser colocado no arquivo .txt:
+| Objeto | Cacactere |
+| :-: | -- |
+| Piso   | símbolo ' ' (space) |
+| Parede | símbolo '#' |
+| Piso Frágil | símbolo 'x' |
+| Buraco | símbolo 'X' |
+| Caixa | símbolo '$' |
+| Player | símbolo '@' |
+| Inimigo | símbolo 'E' |
+| Tesouro | símbolo '.' |
+
+3.2 - O arquivo .txt pode ser salvo na raiz do projeto, ou colocado em uma pasta. Para facilitar é recomendado salvar na raiz do projeto, pois será necessário passar o caminho para o arquivo .txt durante a execução. Se ele for salvo na raiz, basta digitar o nome do arquivo .txt da fase customizada.
+
+3.3 - Execute o projeto com ```make run```
+
+3.4 - Escolha a opção fase customizada
+![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/9d176917-82aa-404b-85be-219e4c09484b)
+
+3.5 - Digite o caminho para o arquivo .txt da sua fase customizada, caso ele esteja na raiz, basta digitar o nome do mesmo e apertar enter.
+
+3.6 - O navegador irá iniciar e o jogo começa na fase customizada
+![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/e1881aa8-be7b-476a-a7d2-f316a6b2d29a)
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
