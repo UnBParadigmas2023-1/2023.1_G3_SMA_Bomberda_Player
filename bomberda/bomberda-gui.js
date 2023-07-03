@@ -24,6 +24,8 @@ function restartLevel() {
 
 var levelId = 0;
 
+var triggerNextLevel = false;
+
 function nextLevel() {
   document.getElementById("levelSelect").value = levelId+1;
 	document.getElementById("customLevel").value = levels[levelId];
@@ -34,6 +36,7 @@ function nextLevel() {
 	  restartLevel();
   }
 	levelId++;
+  triggerNextLevel = true;
 }
 
 function selectLevel() {

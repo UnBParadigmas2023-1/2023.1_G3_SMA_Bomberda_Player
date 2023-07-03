@@ -1,6 +1,7 @@
 import browser as b
 import time
 import sys
+import select
 import os
 import src.model as m
 
@@ -30,8 +31,7 @@ def invalid_option():
 def init_fases():
     browser = os.environ.get('BROWSER')
     b.openBrowser(browser)
-    model = m.bomberdaModel()
-    model.step()
+    loop_levels()
 
 def init_custom(path):
 
@@ -42,21 +42,23 @@ def init_custom(path):
     b.openBrowser(browser)
     b.setMap(buffer)
 
-    model = m.bomberdaModel()
-    model.step()
+    loop_levels()
+
+def loop_levels():
+    while True:
+        if b.checkTriggerNextLevel():
+            model = m.bomberdaModel()
+            model.step()
+
+        # Usuario aperta alguma tecla volta para o Menu
+        if select.select([sys.stdin,],[],[],0.0)[0]: # Apenas Linux e MacOs
+            break
+
+        time.sleep(1)
 
 def custom_mode():
     if arg == "-test":
         init_custom("test_custom_map.txt")
-        b.goUp()
-        b.goRight()
-        b.goDown()
-        b.goLeft()
-        b.bomb()
-        b.goUp()
-        b.goUp()
-        b.goUp()
-        b.reset()
 
     else:
         while 1:

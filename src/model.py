@@ -26,7 +26,7 @@ class bomberdaModel(Model):
 
         for row in range(height):
             for col in range(width):
-                symbol = splited_map[row][col]
+                symbol = splited_map[row][col] if col < len(splited_map[row]) else '#'
                 
                 if symbol == '@':
                     self.has_hero = True
