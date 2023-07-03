@@ -113,7 +113,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | João Gabriel de Campos de Matos | | | 
 | Kess Jhones Gomes Tavares |Auxilio na implementação inicial da model e dos agentes| Regular |
 | Mateus Moreira Lima | | |
-| Vitor Diniz Pagani Vieira Ribeiro | | | 
+| Vitor Diniz Pagani Vieira Ribeiro | Participei da implementação inicial da model e dos agentes, também participei da implementação do BFS para o agente encontrar o melhor caminho em direção ao tesouro e participei da correção do bug para atualizar o mapa após a explosão do bomba. | Regular | 
 | Yan Andrade de Sena | Implementação inicial da model | Regular | 
 | Yuri Alves Bacarias | implementação da model, alteração das fases para adequação ao projeto contruido,correção de pequenos bugs nos mapas | regular | 
 
