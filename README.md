@@ -107,7 +107,7 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Antonio Igor Carvalho | | | 
+| Antonio Igor Carvalho | Participei da implementação da model e agentes, implementação do algoritmo BFS (Breadth-first search), correção de um pequeno erro no algoritmo de colocar as bombas, implementação da continuidade de fases quando o héroi conclui o mapa. | Muito Boa | 
 | Antonio Rangel Chaves | | | 
 | Daniel Porto de Souza | Configuração do ambiente, implementação do fluxo inicial, configuração e implementação do web-scraping, implementação inicial da model e dos agentes e implementação da lógica de pegar o tesouro e usar a bomba | Excelente | 
 | João Gabriel de Campos de Matos | | | 
@@ -123,7 +123,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 |Nome do Membro | Lições Aprendidas | 
 | -- | -- |
-| Antonio Igor Carvalho | | 
+| Antonio Igor Carvalho | Nunca tinha mexido com web scraping, é algo novo para mim e vi que não é algo fora do normal, pode ser feito. A utilização do paradigma utilizando python com o Mesa foi interessante após entender como funcionava. | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Fazer web scraping é bem divertido, dá pra faer muita coisa com o selenium. Sempre soube que o python é uma linguagem muito poderosa mas confesso que tinha uma certa resitência em usar. Gostei de me aprofundar mais na linguagem.|  
 | João Gabriel de Campos de Matos | |
@@ -137,7 +137,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 |Nome do Membro | Percepções | 
 | -- | -- |
-| Antonio Igor Carvalho | | 
+| Antonio Igor Carvalho | Um paradigma bem interessante, e ainda com a junção de web scraping foi um escopo no qual eu nunca tinha utilizado | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Esse paradigma foi interessante de se estudar. Uma nova forma de se resolver problemas complexos que geralmente não possuem uma solução em ordem polinomial além de estimular muito a criatividade |  
 | João Gabriel de Campos de Matos | |
@@ -151,7 +151,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 |Nome do Membro | Contribuições | 
 | -- | -- |
-| Antonio Igor Carvalho | | 
+| Antonio Igor Carvalho | Implementação de um algoritmo que soluciona certas fases do jogo. | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | O projeto, utiliza do SMA para solucionar o game Bomberda, o qual se trata de uma ferramenta para exercitar fundamentos estudados nas disciplinas de IA. Isso pode servir de auxílio para estudantes e entusiastas. |  
 | João Gabriel de Campos de Matos | |
@@ -165,7 +165,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 |Nome do Membro | Fragilidades | 
 | -- | -- |
-| Antonio Igor Carvalho | | 
+| Antonio Igor Carvalho | Acredito que poderia ser considerado a recriação do jogo utilizando as ferramentas que o MESA proporciona | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | O escopo desse seria melhor abordado utilizando uma orietação a objetivos. O comportamental pode limitar um pouco as soluções |  
 | João Gabriel de Campos de Matos | |
@@ -179,7 +179,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 |Nome do Membro | Trabalhos Futuros | 
 | -- | -- |
-| Antonio Igor Carvalho | | 
+| Antonio Igor Carvalho | Implementar a solução de fases quando o inimigo estiver presente | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Como trabalhos futuros, pode-se pensar desde incluir novos mapas mais desafiadores, até utilizar mais as ferramentas do MESA para, por exemplo, ilustrar graficamente o processo de decisão que o sistema realiza antes de executar o game.|  
 | João Gabriel de Campos de Matos | |
