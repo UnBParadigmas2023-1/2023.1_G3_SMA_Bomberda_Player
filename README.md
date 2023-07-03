@@ -111,7 +111,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Antonio Rangel Chaves | | | 
 | Daniel Porto de Souza | Configuração do ambiente, implementação do fluxo inicial, configuração e implementação do web-scraping, implementação inicial da model e dos agentes e implementação da lógica de pegar o tesouro e usar a bomba | Excelente | 
 | João Gabriel de Campos de Matos | | | 
-| Kess Jhones Gomes Tavares | | | 
+| Kess Jhones Gomes Tavares |Auxilio na implementação inicial da model e dos agentes| Regular |
 | Mateus Moreira Lima | | |
 | Vitor Diniz Pagani Vieira Ribeiro | | | 
 | Yan Andrade de Sena | Implementação inicial da model | Regular | 
@@ -127,7 +127,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Fazer web scraping é bem divertido, dá pra faer muita coisa com o selenium. Sempre soube que o python é uma linguagem muito poderosa mas confesso que tinha uma certa resitência em usar. Gostei de me aprofundar mais na linguagem.|  
 | João Gabriel de Campos de Matos | |
-| Kess Jhones Gomes Tavares | |
+| Kess Jhones Gomes Tavares | Como funciona o paradigma multiagente, um pouco de web scraping e aplicação de algoritmos de EDA em contextos diferentes |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Aprendi um pouco de python e também sobre o paradigmas multiagentes. Não cheguei a me aprofundar muito sobre o selenium |
@@ -141,7 +141,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Esse paradigma foi interessante de se estudar. Uma nova forma de se resolver problemas complexos que geralmente não possuem uma solução em ordem polinomial além de estimular muito a criatividade |  
 | João Gabriel de Campos de Matos | |
-| Kess Jhones Gomes Tavares | |
+| Kess Jhones Gomes Tavares |Multi agentes pode ser utulizado para resolver problemas complexos |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Achei muito legal e interessante a implementação em um jogo (como se fosse uma IA jogando) |
@@ -155,7 +155,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | O projeto, utiliza do SMA para solucionar o game Bomberda, o qual se trata de uma ferramenta para exercitar fundamentos estudados nas disciplinas de IA. Isso pode servir de auxílio para estudantes e entusiastas. |  
 | João Gabriel de Campos de Matos | |
-| Kess Jhones Gomes Tavares | |
+| Kess Jhones Gomes Tavares |Auxlio com a linguagem e ideias de como implementar a lógica para o controle do herói  |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Ajudei na lógica de importação do mapa no grid e como seria a utilização de um grid |
@@ -169,7 +169,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | O escopo desse seria melhor abordado utilizando uma orietação a objetivos. O comportamental pode limitar um pouco as soluções |  
 | João Gabriel de Campos de Matos | |
-| Kess Jhones Gomes Tavares | |
+| Kess Jhones Gomes Tavares | Documentação pouco amigavel do MESA, e ter dedicado mais tempo para o aprendizado do paradigma |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Acredito que seja a falta de conhecimento de python por minha parte |
@@ -183,7 +183,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Como trabalhos futuros, pode-se pensar desde incluir novos mapas mais desafiadores, até utilizar mais as ferramentas do MESA para, por exemplo, ilustrar graficamente o processo de decisão que o sistema realiza antes de executar o game.|  
 | João Gabriel de Campos de Matos | |
-| Kess Jhones Gomes Tavares | |
+| Kess Jhones Gomes Tavares |Cria um agente que observe o úsuario e consiga gerar novos mapas |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Implementar também o inimigo e também talvez implementar um algoritmo de Djikstra para fazer o personagem montar o melhor caminho possível para chegar no tesouro |
