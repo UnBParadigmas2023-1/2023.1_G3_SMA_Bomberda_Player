@@ -115,7 +115,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Mateus Moreira Lima | | |
 | Vitor Diniz Pagani Vieira Ribeiro | | | 
 | Yan Andrade de Sena | Implementação inicial da model | Regular | 
-| Yuri Alves Bacarias | | | 
+| Yuri Alves Bacarias | implementação da model, alteração das fases para adequação ao projeto contruido,correção de pequenos bugs nos mapas | regular | 
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
@@ -131,7 +131,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Aprendi um pouco de python e também sobre o paradigmas multiagentes. Não cheguei a me aprofundar muito sobre o selenium |
-| Yuri Alves Bacarias | |
+| Yuri Alves Bacarias | Aprofundei nos conhecimentos de python, achei interessante a parte do scraping |
 
 ### Percepções
 
@@ -145,7 +145,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Achei muito legal e interessante a implementação em um jogo (como se fosse uma IA jogando) |
-| Yuri Alves Bacarias | |
+| Yuri Alves Bacarias | Um paradigma complexo mas achei um dos melhores na diciplina |
 
 ### Contribuições 
 
@@ -159,7 +159,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Ajudei na lógica de importação do mapa no grid e como seria a utilização de um grid |
-| Yuri Alves Bacarias | |
+| Yuri Alves Bacarias | correção de bugs dos mapas, adequação do mesmo ao projeto. Auxilio no implementação da logica do heroi |
 
 ### Fragilidades
 
@@ -173,7 +173,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Acredito que seja a falta de conhecimento de python por minha parte |
-| Yuri Alves Bacarias | |
+| Yuri Alves Bacarias | A documentção do MESA complexa |
 
 ### Trabalhos Futuros.
 
@@ -187,7 +187,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Implementar também o inimigo e também talvez implementar um algoritmo de Djikstra para fazer o personagem montar o melhor caminho possível para chegar no tesouro |
-| Yuri Alves Bacarias | |
+| Yuri Alves Bacarias | Continuar o projeto com a criação da logica do inimigo, para passar de todas 100 fases existentes |
 
 ## Fontes
 [Mesa: Agent-based modeling in Python 3+](https://mesa.readthedocs.io/en/stable/)
