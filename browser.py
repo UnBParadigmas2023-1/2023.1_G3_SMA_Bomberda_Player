@@ -40,35 +40,35 @@ def openBrowser(browser):
 
 def goUp():
 
-    time.sleep(1)
+    time.sleep(0.5)
     # Simulate pressing the up arrow key
     ACTIONS.send_keys(Keys.ARROW_UP).perform()
 
 def goDown():
 
-    time.sleep(1)
+    time.sleep(0.5)
     # Simulate pressing the down arrow key
     ACTIONS.send_keys(Keys.ARROW_DOWN).perform()
 
 def goRight():
 
-    time.sleep(1)
+    time.sleep(0.5)
     # Simulate pressing the right arrow key
     ACTIONS.send_keys(Keys.ARROW_RIGHT).perform()
 
 def goLeft():
 
-    time.sleep(1)
+    time.sleep(0.5)
     # Simulate pressing the left arrow key
     ACTIONS.send_keys(Keys.ARROW_LEFT).perform()
 
 def bomb():
-    time.sleep(1)
+    time.sleep(0.5)
     # Simulate pressing the space key
     ACTIONS.send_keys(Keys.SPACE).perform()
 
 def reset():
-    time.sleep(1)
+    time.sleep(0.5)
     # Simulate pressing the r key
     ACTIONS.send_keys("r").perform()
 
