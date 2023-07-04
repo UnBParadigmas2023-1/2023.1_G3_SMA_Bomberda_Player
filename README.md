@@ -18,6 +18,8 @@
 |18/0078640|Yuri Alves bacarias|
 
 ## Sobre 
+Este projeto é consiste em implementar o o Paradigma Multiagentes no jogo Bomberda. O Bomberda é um jogo com fins educacionais e possui as seguintes regras:
+
 Regras do jogo:
 1. O objetivo da agente é chegar no tesouro ou matar o inimigo
 2. A agente pode colocar bomba para destruir obstáculos ou inimigos
@@ -29,7 +31,10 @@ Regras do jogo:
 
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/03c0fdfb-ef9b-421a-8c05-15b2df286a75)
+![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/7f629fff-84d5-4d6f-9770-94e8b3f78c81)
+![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/2208267d-a71e-4fd2-b8ff-4a09b4513e82)
+
 
 ## Instalação 
 **Linguagens**: Python <br>
@@ -108,7 +113,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
 | Antonio Igor Carvalho | Participei da implementação da model e agentes, implementação do algoritmo BFS (Breadth-first search), correção de um pequeno erro no algoritmo de colocar as bombas, implementação da continuidade de fases quando o héroi conclui o mapa. | Muito Boa | 
-| Antonio Rangel Chaves | | | 
+| Antonio Rangel Chaves | Participei na atualização da agente após a explosão da caixa | Regular | 
 | Daniel Porto de Souza | Configuração do ambiente, implementação do fluxo inicial, configuração e implementação do web-scraping, implementação inicial da model e dos agentes e implementação da lógica de pegar o tesouro e usar a bomba | Excelente | 
 | João Gabriel de Campos de Matos | Participei da modelagem e da implementação da model e dos agentes. | regular | 
 | Kess Jhones Gomes Tavares |Auxilio na implementação inicial da model e dos agentes| Regular |
@@ -124,7 +129,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 |Nome do Membro | Lições Aprendidas | 
 | -- | -- |
 | Antonio Igor Carvalho | Nunca tinha mexido com web scraping, é algo novo para mim e vi que não é algo fora do normal, pode ser feito. A utilização do paradigma utilizando python com o Mesa foi interessante após entender como funcionava. | 
-| Antonio Rangel Chaves | |  
+| Antonio Rangel Chaves |  Gostei da parte de aplicação da busca em largura no projeto e achei interessante o uso do paradigma na resolução desse problema |  
 | Daniel Porto de Souza | Fazer web scraping é bem divertido, dá pra faer muita coisa com o selenium. Sempre soube que o python é uma linguagem muito poderosa mas confesso que tinha uma certa resitência em usar. Gostei de me aprofundar mais na linguagem.|  
 | João Gabriel de Campos de Matos | Web scraping, apesar de não ser simples, é mais facil do que imaginava. |
 | Kess Jhones Gomes Tavares | Como funciona o paradigma multiagente, um pouco de web scraping e aplicação de algoritmos de EDA em contextos diferentes |
@@ -138,7 +143,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 |Nome do Membro | Percepções | 
 | -- | -- |
 | Antonio Igor Carvalho | Um paradigma bem interessante, e ainda com a junção de web scraping foi um escopo no qual eu nunca tinha utilizado | 
-| Antonio Rangel Chaves | |  
+| Antonio Rangel Chaves | A minha percepção é que esse paradigma se encaixa muito bem em simulações |  
 | Daniel Porto de Souza | Esse paradigma foi interessante de se estudar. Uma nova forma de se resolver problemas complexos que geralmente não possuem uma solução em ordem polinomial além de estimular muito a criatividade |  
 | João Gabriel de Campos de Matos | Achei o paradigma interessante, mas acredito que o projeto se encaixaria melhor em uma implementação utilizando orientação a objetos. |
 | Kess Jhones Gomes Tavares |Multiagentes pode ser utilizado para resolver problemas complexos |
@@ -152,7 +157,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 |Nome do Membro | Contribuições | 
 | -- | -- |
 | Antonio Igor Carvalho | Implementação de um algoritmo que soluciona certas fases do jogo. | 
-| Antonio Rangel Chaves | |  
+| Antonio Rangel Chaves | A contribuição desse projeto para o paradigma consiste em realizar simulações na qual o agente deve resolver problemas para alcançar o objetivo |  
 | Daniel Porto de Souza | O projeto, utiliza do SMA para solucionar o game Bomberda, o qual se trata de uma ferramenta para exercitar fundamentos estudados nas disciplinas de IA. Isso pode servir de auxílio para estudantes e entusiastas. |  
 | João Gabriel de Campos de Matos | O projeto pode ser utilizado por pessoas que querem praticar o paradigma, pois o mesmo já tem a parte implementada como exemplo, e uma parte grande por implementar. |
 | Kess Jhones Gomes Tavares |Auxlio com a linguagem e ideias de como implementar a lógica para o controle do herói  |
@@ -166,7 +171,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 |Nome do Membro | Fragilidades | 
 | -- | -- |
 | Antonio Igor Carvalho | Acredito que poderia ser considerado a recriação do jogo utilizando as ferramentas que o MESA proporciona | 
-| Antonio Rangel Chaves | |  
+| Antonio Rangel Chaves | A modelagem do problema para o paradigma foi complicada, por isso não conseguimos entregar o agente inimigo |  
 | Daniel Porto de Souza | O escopo desse seria melhor abordado utilizando uma orietação a objetivos. O comportamental pode limitar um pouco as soluções |  
 | João Gabriel de Campos de Matos | Falta de conhecimentos previos relacionados a web scraping. |
 | Kess Jhones Gomes Tavares | Documentação pouco amigavel do MESA, e ter dedicado mais tempo para o aprendizado do paradigma |
@@ -180,7 +185,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 |Nome do Membro | Trabalhos Futuros | 
 | -- | -- |
 | Antonio Igor Carvalho | Implementar a solução de fases quando o inimigo estiver presente | 
-| Antonio Rangel Chaves | |  
+| Antonio Rangel Chaves | Implementar o agente inimigo e mapas que vão exigir bastante do agente herói |  
 | Daniel Porto de Souza | Como trabalhos futuros, pode-se pensar desde incluir novos mapas mais desafiadores, até utilizar mais as ferramentas do MESA para, por exemplo, ilustrar graficamente o processo de decisão que o sistema realiza antes de executar o game.|  
 | João Gabriel de Campos de Matos | Implementar lógica do agente inimigo. |
 | Kess Jhones Gomes Tavares |Cria um agente que observe o úsuario e consiga gerar novos mapas |
