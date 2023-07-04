@@ -110,7 +110,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Antonio Igor Carvalho | Participei da implementação da model e agentes, implementação do algoritmo BFS (Breadth-first search), correção de um pequeno erro no algoritmo de colocar as bombas, implementação da continuidade de fases quando o héroi conclui o mapa. | Muito Boa | 
 | Antonio Rangel Chaves | | | 
 | Daniel Porto de Souza | Configuração do ambiente, implementação do fluxo inicial, configuração e implementação do web-scraping, implementação inicial da model e dos agentes e implementação da lógica de pegar o tesouro e usar a bomba | Excelente | 
-| João Gabriel de Campos de Matos | Participei da modelagem e da implementação da model e dos agentes. | | 
+| João Gabriel de Campos de Matos | Participei da modelagem e da implementação da model e dos agentes. | regular | 
 | Kess Jhones Gomes Tavares |Auxilio na implementação inicial da model e dos agentes| Regular |
 | Mateus Moreira Lima | | |
 | Vitor Diniz Pagani Vieira Ribeiro | Participei da implementação inicial da model e dos agentes, também participei da implementação do BFS para o agente encontrar o melhor caminho em direção ao tesouro e participei da correção do bug para atualizar o mapa após a explosão do bomba. | Regular | 
