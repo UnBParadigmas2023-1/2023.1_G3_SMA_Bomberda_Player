@@ -99,14 +99,7 @@ Regras do jogo:
 ![image](https://github.com/UnBParadigmas2023-1/2023.1_G3_SMA_Bomberda_Player/assets/57496213/e1881aa8-be7b-476a-a7d2-f316a6b2d29a)
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+Link de apresentação: https://youtu.be/T3B4jzB0nJs
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
