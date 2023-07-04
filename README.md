@@ -127,7 +127,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | João Gabriel de Campos de Matos | Web scraping, apesar de não ser simples, é mais facil do que imaginava. |
 | Kess Jhones Gomes Tavares | Como funciona o paradigma multiagente, um pouco de web scraping e aplicação de algoritmos de EDA em contextos diferentes |
 | Mateus Moreira Lima | Gostei bastante da parte de web scraping pois nunca havia mexido, foi interessante utilizar o Mesa junto com Python |
-| Vitor Diniz Pagani Vieira Ribeiro | |
+| Vitor Diniz Pagani Vieira Ribeiro | Consegui aprender um pouco sobre o paradigma com o uso do MESA. Algumas das lições que pude aprender foi sobre a autonomia dos agentes e sobre a cooperação e coordenação entre agentes .|
 | Yan Andrade de Sena | Aprendi um pouco de python e também sobre o paradigmas multiagentes. Não cheguei a me aprofundar muito sobre o selenium |
 | Yuri Alves Bacarias | Aprofundei nos conhecimentos de python, achei interessante a parte do scraping |
 
@@ -141,7 +141,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | João Gabriel de Campos de Matos | Achei o paradigma interessante, mas acredito que o projeto se encaixaria melhor em uma implementação utilizando orientação a objetos. |
 | Kess Jhones Gomes Tavares |Multiagentes pode ser utilizado para resolver problemas complexos |
 | Mateus Moreira Lima | O Mesa junto ao python se mostrou muito limitado quanto o que se poderia fazer, impressão que pode estar errada pois a documentação do Mesa não fornece casos de uso variados |
-| Vitor Diniz Pagani Vieira Ribeiro | |
+| Vitor Diniz Pagani Vieira Ribeiro | Achei o paradigma bastante interessante para resolver problemas complexos. |
 | Yan Andrade de Sena | Achei muito legal e interessante a implementação em um jogo (como se fosse uma IA jogando) |
 | Yuri Alves Bacarias | Um paradigma complexo mas achei um dos melhores na diciplina |
 
@@ -155,7 +155,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | João Gabriel de Campos de Matos | O projeto pode ser utilizado por pessoas que querem praticar o paradigma, pois o mesmo já tem a parte implementada como exemplo, e uma parte grande por implementar. |
 | Kess Jhones Gomes Tavares |Auxlio com a linguagem e ideias de como implementar a lógica para o controle do herói  |
 | Mateus Moreira Lima | Auxilio com a implementação da Model do Hero  |
-| Vitor Diniz Pagani Vieira Ribeiro | |
+| Vitor Diniz Pagani Vieira Ribeiro | O projeto pode ser utilizado para explorar alguns conceitos do paradigma, como a autonomia entre agentes, e comunicação e a escalabidade do sistema. |
 | Yan Andrade de Sena | Ajudei na lógica de importação do mapa no grid e como seria a utilização de um grid |
 | Yuri Alves Bacarias | correção de bugs dos mapas, adequação do mesmo ao projeto. Auxilio no implementação da logica do heroi |
 
@@ -169,7 +169,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | João Gabriel de Campos de Matos | Falta de conhecimentos previos relacionados a web scraping. |
 | Kess Jhones Gomes Tavares | Documentação pouco amigavel do MESA, e ter dedicado mais tempo para o aprendizado do paradigma |
 | Mateus Moreira Lima | Seria interessante uma melhor documentação e bons exemplos de casos de uso do paradigma usando Mesa |
-| Vitor Diniz Pagani Vieira Ribeiro | |
+| Vitor Diniz Pagani Vieira Ribeiro | Acredito que o jogo poderia ser recriado usando as ferramentas do MESA, assim como implementar a comunicação e cooperação entre agentes. |
 | Yan Andrade de Sena | Acredito que seja a falta de conhecimento de python por minha parte |
 | Yuri Alves Bacarias | A documentção do MESA complexa |
 
@@ -183,7 +183,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | João Gabriel de Campos de Matos | Implementar lógica do agente inimigo. |
 | Kess Jhones Gomes Tavares |Cria um agente que observe o úsuario e consiga gerar novos mapas |
 | Mateus Moreira Lima | Melhorias no algoritmo de destruição de caixas e implementação de uma inteligência capaz de matar o inimigo |
-| Vitor Diniz Pagani Vieira Ribeiro | |
+| Vitor Diniz Pagani Vieira Ribeiro | Implementar os níveis que possuem inimigos e a interação entre os agentes considerando o inimigo. |
 | Yan Andrade de Sena | Implementar também o inimigo e também talvez implementar um algoritmo de Djikstra para fazer o personagem montar o melhor caminho possível para chegar no tesouro |
 | Yuri Alves Bacarias | Continuar o projeto com a criação da logica do inimigo, para passar de todas 100 fases existentes |
 
