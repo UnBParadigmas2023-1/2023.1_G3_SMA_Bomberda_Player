@@ -141,7 +141,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Esse paradigma foi interessante de se estudar. Uma nova forma de se resolver problemas complexos que geralmente não possuem uma solução em ordem polinomial além de estimular muito a criatividade |  
 | João Gabriel de Campos de Matos | |
-| Kess Jhones Gomes Tavares |Multi agentes pode ser utulizado para resolver problemas complexos |
+| Kess Jhones Gomes Tavares |Multiagentes pode ser utilizado para resolver problemas complexos |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
 | Yan Andrade de Sena | Achei muito legal e interessante a implementação em um jogo (como se fosse uma IA jogando) |
@@ -193,3 +193,5 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 [Mesa: Agent-based modeling in Python 3+](https://mesa.readthedocs.io/en/stable/)
 
 [Bomberda](http://algo2.iti.kit.edu/plan/bomberda/index.html)
+
+[Selenium](https://www.selenium.dev/pt-br/documentation/)
