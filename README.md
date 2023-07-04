@@ -110,7 +110,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Antonio Igor Carvalho | Participei da implementação da model e agentes, implementação do algoritmo BFS (Breadth-first search), correção de um pequeno erro no algoritmo de colocar as bombas, implementação da continuidade de fases quando o héroi conclui o mapa. | Muito Boa | 
 | Antonio Rangel Chaves | | | 
 | Daniel Porto de Souza | Configuração do ambiente, implementação do fluxo inicial, configuração e implementação do web-scraping, implementação inicial da model e dos agentes e implementação da lógica de pegar o tesouro e usar a bomba | Excelente | 
-| João Gabriel de Campos de Matos | | | 
+| João Gabriel de Campos de Matos | Participei da modelagem e da implementação da model e dos agentes. | | 
 | Kess Jhones Gomes Tavares |Auxilio na implementação inicial da model e dos agentes| Regular |
 | Mateus Moreira Lima | | |
 | Vitor Diniz Pagani Vieira Ribeiro | Participei da implementação inicial da model e dos agentes, também participei da implementação do BFS para o agente encontrar o melhor caminho em direção ao tesouro e participei da correção do bug para atualizar o mapa após a explosão do bomba. | Regular | 
@@ -126,7 +126,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Igor Carvalho | Nunca tinha mexido com web scraping, é algo novo para mim e vi que não é algo fora do normal, pode ser feito. A utilização do paradigma utilizando python com o Mesa foi interessante após entender como funcionava. | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Fazer web scraping é bem divertido, dá pra faer muita coisa com o selenium. Sempre soube que o python é uma linguagem muito poderosa mas confesso que tinha uma certa resitência em usar. Gostei de me aprofundar mais na linguagem.|  
-| João Gabriel de Campos de Matos | |
+| João Gabriel de Campos de Matos | Web scraping, apesar de não ser simples, é mais facil do que imaginava. |
 | Kess Jhones Gomes Tavares | Como funciona o paradigma multiagente, um pouco de web scraping e aplicação de algoritmos de EDA em contextos diferentes |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
@@ -140,7 +140,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Igor Carvalho | Um paradigma bem interessante, e ainda com a junção de web scraping foi um escopo no qual eu nunca tinha utilizado | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Esse paradigma foi interessante de se estudar. Uma nova forma de se resolver problemas complexos que geralmente não possuem uma solução em ordem polinomial além de estimular muito a criatividade |  
-| João Gabriel de Campos de Matos | |
+| João Gabriel de Campos de Matos | Achei o paradigma interessante, mas acredito que o projeto se encaixaria melhor em uma implementação utilizando orientação a objetos. |
 | Kess Jhones Gomes Tavares |Multiagentes pode ser utilizado para resolver problemas complexos |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
@@ -154,7 +154,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Igor Carvalho | Implementação de um algoritmo que soluciona certas fases do jogo. | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | O projeto, utiliza do SMA para solucionar o game Bomberda, o qual se trata de uma ferramenta para exercitar fundamentos estudados nas disciplinas de IA. Isso pode servir de auxílio para estudantes e entusiastas. |  
-| João Gabriel de Campos de Matos | |
+| João Gabriel de Campos de Matos | O projeto pode ser utilizado por pessoas que querem praticar o paradigma, pois o mesmo já tem a parte implementada como exemplo, e uma parte grande por implementar. |
 | Kess Jhones Gomes Tavares |Auxlio com a linguagem e ideias de como implementar a lógica para o controle do herói  |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
@@ -168,7 +168,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Igor Carvalho | Acredito que poderia ser considerado a recriação do jogo utilizando as ferramentas que o MESA proporciona | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | O escopo desse seria melhor abordado utilizando uma orietação a objetivos. O comportamental pode limitar um pouco as soluções |  
-| João Gabriel de Campos de Matos | |
+| João Gabriel de Campos de Matos | Falta de conhecimentos previos relacionados a web scraping. |
 | Kess Jhones Gomes Tavares | Documentação pouco amigavel do MESA, e ter dedicado mais tempo para o aprendizado do paradigma |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
@@ -182,7 +182,7 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 | Antonio Igor Carvalho | Implementar a solução de fases quando o inimigo estiver presente | 
 | Antonio Rangel Chaves | |  
 | Daniel Porto de Souza | Como trabalhos futuros, pode-se pensar desde incluir novos mapas mais desafiadores, até utilizar mais as ferramentas do MESA para, por exemplo, ilustrar graficamente o processo de decisão que o sistema realiza antes de executar o game.|  
-| João Gabriel de Campos de Matos | |
+| João Gabriel de Campos de Matos | Implementar lógica do agente inimigo. |
 | Kess Jhones Gomes Tavares |Cria um agente que observe o úsuario e consiga gerar novos mapas |
 | Mateus Moreira Lima | |
 | Vitor Diniz Pagani Vieira Ribeiro | |
